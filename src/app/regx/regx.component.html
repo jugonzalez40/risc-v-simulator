@@ -1,0 +1,14 @@
+<nz-table #basicTable nzShowPagination="false" nzSize="small" [nzPageSize]="registers.length" [nzData]="registers">
+  <thead>
+    <tr>
+      <th>Registro</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of basicTable.data">
+      <td>{{ data.name }}</td>
+      <td>{{ data.value }}</td>
+    </tr>
+  </tbody>
+</nz-table>

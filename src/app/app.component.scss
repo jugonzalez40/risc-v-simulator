@@ -1,0 +1,61 @@
+
+
+.simulator-container {
+  position: absolute;
+  border: 1px solid black;
+
+  width: 100%;
+  height: 100%;
+
+}
+
+
+.fx-column {
+  flex-direction: column;
+  display: flex;
+}
+
+.fx-row {
+  flex-direction: row;
+  display: flex;
+}
+
+.box {
+  border: 1px solid red;
+}
+
+.inst-container {
+  // flex-grow: 1;
+  height: 100%;
+    width: 100%;
+}
+
+.view-container {
+  // flex-grow: 2;
+}
+
+.input-container {
+  height: 100%;
+  // flex-grow: 1;
+  width: 50%;
+}
+
+.output-container {
+  // flex-grow: 1;
+  width: 50%;
+}
+
+.graph-container {
+  // flex-grow: 6;
+  width: calc(100% - 200px);
+}
+
+.regx-container {
+  width: 200px;
+  overflow-y: scroll;
+  height: 550px;
+}
+
+
+
+

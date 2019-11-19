@@ -1,0 +1,30 @@
+{
+  "types": [{
+    "name": "R",
+    "transform": {
+      "OP_CODE": [0, 6],
+      "RD": [7, 11],
+      "F3": [12, 14],
+      "RS1": [15, 19],
+      "RS2": [20, 24],
+      "F7": [25, 31]
+    },
+    "instructions": [{
+      "name": "add",
+      "function": "sum"
+    }],
+    "steps": [{}]
+  }, {
+    "name": "B"
+  }, {
+    "name": "S"
+  }, {
+    "name": "I"
+  }, {
+    "name": "S"
+  }, {
+    "name": "U"
+  }, {
+    "name": "J"
+  }]
+}
