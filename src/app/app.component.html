@@ -2,6 +2,23 @@
   <div class="box view-container fx-row ">
     <div class="box graph-container">
       <app-graph></app-graph>
+
+      <div class="control">
+        <button class="play-btn" (click)="play()">
+          <i class="fa fa-play"   aria-hidden="true"></i>
+        </button>
+        <button class="stop-btn">
+          <i class="fa fa-stop" aria-hidden="true"></i>
+        </button>
+        <button class="pause-btn ">
+          <i class="fa fa-pause" aria-hidden="true"></i>
+        </button>
+
+
+
+
+      </div>
+
     </div>
     <div class="box regx-container">
       <app-regx></app-regx>
@@ -12,7 +29,7 @@
       <app-input></app-input>
     </div>
     <div class="box output-container">
-      <app-output></app-output>
+      <app-output #outComponent></app-output>
     </div>
   </div>
 </div>

@@ -21,7 +21,7 @@
 }
 
 .box {
-  border: 1px solid red;
+  border: 1px solid #4a4a4a;
 }
 
 .inst-container {
@@ -57,5 +57,36 @@
 }
 
 
+.control {
+
+  text-align: center;
+}
+
+
+.play-btn {
+  border: none;
+  background: transparent;
+  color: green;
+  font-size: 1.5rem;
+  width: 50px;
+}
+
+
+.stop-btn {
+  border: none;
+  background: transparent;
+  color: red;
+  font-size: 1.5rem;
+  width: 50px;
+}
+
+
+.pause-btn {
+  border: none;
+  background: transparent;
+  color: #4a4a4a;
+  font-size: 1.5rem;
+  width: 50px;
+}
 
 

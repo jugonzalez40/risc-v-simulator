@@ -1,1 +1,10 @@
-<p>output works!</p>
+
+<!-- TYPE R-->
+<nz-table #basicTable
+  nzShowPagination="false" nzSize="small" [nzData]="binaryRows">
+  <tbody>
+    <tr *ngFor="let data of basicTable.data">
+      <td *ngFor="let ins of data">{{ ins }}</td>
+    </tr>
+  </tbody>
+</nz-table>

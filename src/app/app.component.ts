@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ViewChildren } from '@angular/core';
+import { OutputComponent } from './output/output.component';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'rgod';
+
+  @ViewChild('outComponent', {static:false}) outComponent;
+
+  play() {
+    console.log('??')
+    this.outComponent.play();
+  }
 }
